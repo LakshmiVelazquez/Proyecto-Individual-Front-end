@@ -7,7 +7,7 @@ export default function WeatherMainInfo({ weather }) {
       <div className={styles.country}>{weather?.location?.country}</div>
       <div className={styles.row}>
         <div>
-          <img src=[´http:${weather?.current?.condition?.icon}´] width="128" />
+          <img src={´ http:${weather?.current?.condition?.icon} ´ } width="128" />
         </div>
         <div className={styles.weatherConditions}>
           <div className={styles.condition}>
